@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	cowsay "github.com/Code-Hex/Neo-cowsay"
+	cowsay "github.com/Code-Hex/Neo-cowsay/v2"
 )
 
 func Select(query string, inputParams map[string]string) {
