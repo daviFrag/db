@@ -1,5 +1,11 @@
 {
     "name": "db",
+    "config": {
+        "params": [
+            "databaseType",
+            "connectionStr"
+        ]
+    },
     "operations": {
         "Select": {
             "params": [
